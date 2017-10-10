@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuCreditsOption"
+            android:icon="@mipmap/ic_currency_btc_black"
+            android:title="Credits Amount" />
+        <item
+            android:id="@+id/menuMoviesOption"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Movies" />
+        <item
+            android:id="@+id/menuChangeUserDetailsOption"
+            android:icon="@mipmap/ic_person_black"
+            android:title="Change User Details" />
+        <item
+            android:id="@+id/menuOrderHistory"
+            android:icon="@mipmap/ic_history_black"
+            android:title="Order History" />
+        <item
+            android:id="@+id/menuLogoutOption"
+            android:icon="@mipmap/ic_exit_app_black"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Share">
+        <menu>
+            <item
+                android:id="@+id/menuShareOption"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Social Media"
+                android:actionProviderClass="android.widget.ShareActionProvider" />
+        </menu>
+    </item>
+
+</menu>
